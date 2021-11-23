@@ -1,0 +1,85 @@
+.modelstwo
+    height: 1400px
+    padding-top: 100px
+    position: relative
+    &__descr
+        width: 1000px
+        font-family: SegoeWP
+        font-size: 31px
+        font-weight: normal
+        font-stretch: normal
+        font-style: normal
+        line-height: normal
+        letter-spacing: normal
+        text-align: center
+        color: #0a0c0a
+    &__title
+        font-family: SegoeWP Bold
+        font-size: 50px
+        font-stretch: normal
+        font-style: normal
+        line-height: normal
+        letter-spacing: normal
+        text-align: center
+        color: #0a0c0a
+        margin-top: 100px
+    &__slider
+        margin-top: 80px
+        width: 98vw
+        position: absolute
+        bottom: 0
+        left: 50%
+        transform: translateX(-50%)
+        .slick-center
+            box-shadow: none    
+            opacity: 100
+        .slick-active
+            opacity: 100
+    &__item
+        width: 200px
+        height: 652px
+        position: relative
+        margin: 0 15px
+        opacity: 20%
+        transition: 0.3s all
+        &:hover
+            .btn_slider
+                display: block
+        &-img
+            display: block
+            margin: 0 auto
+        &-title
+            font-family: SegoeWP
+            font-size: 16px
+            font-weight: normal
+            font-stretch: normal
+            font-style: normal
+            line-height: normal
+            letter-spacing: normal
+            text-align: center
+            color: #00615b
+            margin-top: 30px
+        &-wrapper
+            font-family: SegoeWP;
+            font-size: 14px
+            font-weight: normal
+            font-stretch: normal
+            font-style: normal
+            line-height: normal
+            letter-spacing: normal
+            text-align: center
+            color: #8d9091
+            margin-top: 53px
+        &-price
+            font-family: SegoeWP
+            font-size: 16px
+            font-weight: bold
+            font-stretch: normal
+            font-style: normal
+            line-height: normal
+            letter-spacing: normal
+            color: #0a0c0a
+            position: absolute
+            bottom: 70px
+            left: 50%
+            transform: translateX(-50%)
