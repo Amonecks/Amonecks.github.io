@@ -413,7 +413,12 @@ main {
     width: 80%;
   }
 }
-
+.blog-news__panel_active {
+  background: #FFFFFF;
+  -webkit-box-shadow: 5px 15px 40px rgba(30, 35, 66, 0.15);
+          box-shadow: 5px 15px 40px rgba(30, 35, 66, 0.15);
+  border-radius: 25px;
+}
 h1.title {
   font-family: "ALS Schlange Sans";
   font-size: 84px;
